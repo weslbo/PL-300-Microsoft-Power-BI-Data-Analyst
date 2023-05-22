@@ -251,9 +251,9 @@ In this task, you'll configure the **Targets** query.
     - **Attribute** to **MonthNumber** (there's no space)
     - **Value** to **Target**
 
-5. Remove the "M" value from the **MonthNumber** column.
+5. Remove the "M" value from the **MonthNumber** column and convert the column data type to **Whole Number**.
 
-6. Use the **Column From Examples** feature, to create a new column named **TargetMonth**. The first value should be **1/1/2017**.
+6. Use the **Column From Examples** feature, to create a new column named **TargetMonth**. The first value should be **7/1/2017**.
     
 	*The virtual machine uses US regional settings, so this date is in fact July 1, 2017. Other regional settings may require a **0** before the date.*
 
