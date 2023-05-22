@@ -109,7 +109,7 @@ In this task, you'll configure the **Product** query.
 
 4. Notice that the **DimProductSubcategory** column represents a related table (it contains **Value** links).
 
-5. Expand the **DimProductSubcategory** column. Do not **Use Original Column Name as Prefix**. Keep only the following columns:
+5. Expand the **DimProductSubcategory** column. Do not **Use Original Column Name as Prefix**. Keep only the following columns **EnglishProductSubcategoryName** and **DimProductCategory**:
 
 	*By selecting these two columns, a transformation will be applied to join to the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table in the data source.*
 
